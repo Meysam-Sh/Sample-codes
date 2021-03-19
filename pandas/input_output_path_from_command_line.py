@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import json
 
-# read the path of CSV file and output file as command-line arguments
+# read the path of input and output files as command-line arguments
 sys = os.sys
 CSV_file_path = sys.argv[1]
 output_path = sys.argv[2]
