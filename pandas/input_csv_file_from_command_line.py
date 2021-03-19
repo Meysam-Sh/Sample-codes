@@ -13,7 +13,7 @@ df = pd.read_csv(CSV_file_path)
 
 hobbies = []
 added = []
-# each record to a dictionary
+# add each dataframe record to a dictionary
 for hoby in df.T:
     data = df.T[hoby]
     print(data)
